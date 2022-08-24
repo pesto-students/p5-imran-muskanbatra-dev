@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    font-family: 'Lato', sans-serif;
+
+    }
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar{
+  background-color: lightgrey;
+  height: 608px; 
+  width: 10px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  overflow-x: hidden; 
+  padding: 20px;
+    
+
+    
+}
+
+
+
+.content-section{
+    background-color: #454545;
+    display: flex;
+    
+}
+
+.img{
+  margin-left: 70px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+
+
+.card-details{
+    color:white;
+    padding: 10px;
+    
+    
+}
+
+.card-icons{
+  display: flex;
+  gap:20px;
+}
+
+/* zebra striping */
+
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+    height: 50px;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: white;
+    height: 50px;
+  }
+  
+  
+  
+  table {
+    
+    width: 100%;
+    margin-left: 50px;
+    margin-bottom: 126px;
+
+    
+
+  }
+
+.footer{
+    background-color: #506ab8;
+    height: 95px;
+}
+  
+.footer-content{
+    background-color: #506ab8;
+    height: 90px;
+    display: flex;
+    color: white;
+    
+}
+.info{
+    margin-right: 600px;
+}
+.img1{
+    height: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.icons{
+    padding: 40px;
+    display: flex;
+    gap: 190px;
+    
+}
+
+.btn{
+  color: blue;
+}
+
