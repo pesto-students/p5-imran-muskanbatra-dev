@@ -1,0 +1,76 @@
+
+
+
+
+
+.main1{
+    display: flex;
+    flex-direction: row;
+
+
+   
+}
+
+
+.main2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+.sq1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}
+
+.sq1:hover{
+    transform: rotate(90deg);
+    transform-origin: bottom-right;
+}
+
+.sq2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    background-color: g;
+    transition-property: transform;
+    transition-duration: 5s;
+}
+
+.sq2:hover{
+    transform: rotate(90deg);
+    transform-origin: bottom-right;
+}
+
+.sq3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition-property: transform;
+    transition-duration: 5s;
+}
+
+.sq3:hover{
+    transform: rotate(90deg);
+    transform-origin: bottom-right;
+}
+
+.sq4{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-property: transform;
+    transition-duration: 5s;
+}
+
+.sq4:hover{
+    transform: rotate(90deg);
+    transform-origin: bottom-right;
+}
